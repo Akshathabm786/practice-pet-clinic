@@ -9,11 +9,6 @@ pipeline {
         string(name: 'BRANCH', defaultValue: 'main', description: 'Branch to build from')
     }
 
-    tools {
-        jdk 'java-home25'
-        maven 'maven-home'
-    }
-
     stages {
         stage('Git Checkout') {
             steps {
