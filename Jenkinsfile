@@ -47,6 +47,7 @@ pipeline {
             DevOps Team
 """
 )
+    }
 failure {
     mail (
         to: 'akshatha.1si20et003@gmail.com',
